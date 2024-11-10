@@ -1,0 +1,113 @@
+.app {
+}
+
+.wrap {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+
+.cover {
+  flex: 6;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover .cover-info {
+  padding: 80px;
+}
+
+.cover .message {
+  font-family: "Montserrat", serif;
+  font-size: 80px;
+  color: white;
+}
+
+.content {
+  flex: 4;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  display: block;
+  height: 40px;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form {
+  width: 100%;
+  height: calc(100vh - 250px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .form-panel {
+  min-width: 360px;
+}
+
+.vector {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.desc {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cta {
+  display: flex;
+  justify-content: justify;
+  align-items: center;
+}
+
+.cta .register {
+  flex: 1;
+  text-alignt: center;
+  height: 44px;
+  border: 1px solid #aaa;
+  line-height: 42px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.cta .login {
+  flex: 1;
+  text-alignt: center;
+  height: 44px;
+  background: #2196f3;
+  line-height: 44px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
